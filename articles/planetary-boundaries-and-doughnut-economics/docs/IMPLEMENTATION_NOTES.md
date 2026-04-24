@@ -8,9 +8,19 @@ This module is designed around five linked questions:
 4. Where do social foundations remain unmet despite environmental restraint?
 5. How can the Doughnut framework be translated into auditable analytics and engineering systems?
 
-## Metric architecture
+## Engineering architecture
 
-The article body includes Python and R workflows for analytical clarity. The repository extends the same logic into SQL, Rust, Go, C, C++, TinyML, and PYNQ scaffolds.
+The article body uses Python and R because those are the most useful visible tools for sustainability analytics and reporting.
+
+The repository expands the logic into:
+
+- SQL for provenance and auditability
+- Rust for reliable scoring cores
+- Go for API delivery
+- C for embedded threshold monitoring
+- C++ for scenario simulation
+- TinyML for edge anomaly detection
+- PYNQ for accelerator-aware environmental monitoring
 
 ## Caution
 

@@ -1,5 +1,5 @@
 [package]
-name = "doughnut_boundary_score"
+name = "doughnut_boundary_engine"
 version = "0.1.0"
 edition = "2021"
 

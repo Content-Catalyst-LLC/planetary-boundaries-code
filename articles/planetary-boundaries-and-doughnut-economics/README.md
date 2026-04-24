@@ -1,25 +1,28 @@
 # Planetary Boundaries and Doughnut Economics
 
-This article folder supports the Planetary Boundaries knowledge-series article on Doughnut Economics, ecological ceilings, social foundations, overshoot, shortfall, and the safe-and-just space for humanity.
+This repository folder provides an engineering-oriented reference scaffold for modeling the relationship between planetary boundaries and Doughnut Economics.
 
-The article body includes Python and R workflows for readability and reproducible analytics. This repository extends the implementation into a broader engineering scaffold for auditability, APIs, systems programming, embedded monitoring, TinyML, and PYNQ-oriented edge workflows.
+The article body uses Python and R for readable, reproducible analytics. This repository extends the work into a deeper technical architecture:
 
-## Structure
+- Python for typed scoring, sensitivity analysis, and reproducible exports
+- R for dashboard-ready reporting
+- SQL for indicator, threshold, provenance, and auditability infrastructure
+- Rust for a reliable scoring core
+- Go for a lightweight diagnostic API
+- C for embedded-style threshold monitoring
+- C++ for scenario simulation
+- TinyML for edge anomaly-detection scaffolding
+- PYNQ for accelerator-oriented monitoring concepts
 
-- `python/` — Python workflow for Doughnut diagnostic scoring
-- `r/` — R workflow for dashboard-ready social-ecological reporting
-- `sql/` — schema for indicator storage, thresholds, provenance, and audit trails
-- `rust/` — high-integrity boundary scoring engine scaffold
-- `go/` — lightweight API scaffold for diagnostic scores
-- `c/` — embedded-style threshold monitoring example
-- `cpp/` — high-performance boundary simulation scaffold
-- `tinyml/` — edge anomaly detection scaffold
-- `pynq/` — notes and Python scaffold for PYNQ/FPGA-oriented acceleration
-- `docs/` — methodological and engineering notes
-- `data/raw/` — raw input data
-- `data/processed/` — cleaned and transformed data
-- `outputs/` — exported diagnostic scores and dashboard-ready files
+## Core Concepts
 
-## Methodological Note
+The workflow models two failures simultaneously:
 
-The sample workflows use illustrative data. Replace placeholder values with documented indicators from authoritative sources before using the workflow for applied research, engineering, reporting, or policy analysis.
+1. **Ecological overshoot** — when observed pressure exceeds an ecological ceiling.
+2. **Social shortfall** — when observed social achievement falls below a minimum foundation.
+
+The goal is not to collapse planetary justice into a single number, but to demonstrate how the logic of ecological ceiling, social foundation, overshoot, and shortfall can become auditable technical infrastructure.
+
+## Caution
+
+All data and thresholds are illustrative. Replace sample values with documented indicators from authoritative sources before applied use.
