@@ -1,0 +1,6 @@
+[package]
+name = "earth_system_resilience_engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
